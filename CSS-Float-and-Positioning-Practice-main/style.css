@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.navbar{
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.navbar > p{
+    color: black;
+    display: inline;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+
+.header{
+    font-size: larger;
+}
+
+.main-content{
+    border: 5px solid white;
+    width: 60%;
+}
+
+.sidebar{
+    border: 5px solid white;
+    width: 30%;
+}
+
+.footer{
+
+}
+
+
+
+.image1{
+    float: left;
+}
+
+.image2{
+    float: right;
+}
