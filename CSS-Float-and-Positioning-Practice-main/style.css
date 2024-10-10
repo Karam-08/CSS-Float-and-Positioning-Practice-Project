@@ -1,47 +1,82 @@
+
 body{
     background-color: black;
     color:white;
+    flex-wrap: row;
+    /* Makes the site look cool
+    Flex wrap so when site is small, it doesn't look like trash */
 }
 
 .navbar{
     background-color: white;
     padding: 10px;
     padding-left: 30px;
+    /* Background color looks good
+    Padding is for spacing */
 }
 
 .navbar > p{
     color: black;
     display: inline;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 115px;
+    padding-right: 115px;
+    /* Display inline for text to be in one line
+    Padding for even distribution */
 }
 
 
 
 .header{
     font-size: larger;
+    /* I believe you can figure out what this does */
 }
 
+
 .main-content{
-    border: 5px solid white;
-    width: 60%;
+    border: 5px solid gray;
+    padding: 10px;
+    width: 55%;
+    float: left;
+    /* Border because it looks good
+    Takes up majority of the area
+    Float left so that the sidebar can go to the right and so that it doesn't overlap the image */
 }
 
 .sidebar{
-    border: 5px solid white;
+    border: 5px solid gray;
+    padding: 10px;
     width: 30%;
+    float: right;
+    /* Float right so that it doesn't overlap with dog image */
+}
+
+.sidebar > img{
+    padding-top: 25px;
+    /* Creates more space between text and image */
+}
+
+
+a[href="#"]{
+    color: gold;
+    text-decoration: none;
+    /* Simple is best
+    Gold looks nice */
 }
 
 .footer{
-
+    clear: both;
+    /* Creates space for footer to go in */
 }
-
 
 
 .image1{
     float: left;
+    padding: 10px;
+    /* Image goes to the left */
 }
 
 .image2{
     float: right;
+    padding: 10px;
+    /* Image goes to the right */
 }
